@@ -1,0 +1,15 @@
+Prerequisite
+===============
+	$ sudo apt-get install -y cmake fcitx-libs-dev fcitx-tools fcitx-table
+
+
+Description
+==============
+Dayi (http://www.dayi.com) table for fcitx
+
+
+How to install
+==============
+mkdir build
+cmake . -DCMAKE_INSTALL_PREFIX=/usr
+make install
