@@ -11,6 +11,6 @@ Dayi (http://www.dayi.com) table for fcitx
 How to install
 ==============
 mkdir build
-cd build; cmake . -DCMAKE_INSTALL_PREFIX=/usr
+cd build; cmake .. -DCMAKE_INSTALL_PREFIX=/usr
 sudo make install
 ---- reboot --- config shown in top bar --- select input (uncheck only current input)
